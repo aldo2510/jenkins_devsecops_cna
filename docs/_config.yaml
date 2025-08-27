@@ -1,3 +1,28 @@
-theme: minima
+# Usa el tema remoto de Microsoft Learning
+remote_theme: MicrosoftLearning/Jekyll-Theme
+
 title: Jenkins DevSecOps Cloud Native Academy
 description: Documentación del proyecto
+github_username: aldo2510
+
+# Páginas que aparecerán en el menú (ordenadas)
+header_pages:
+  - index.md
+  - guia-jenkins-docker.md
+  - guia-nexus-docker.md
+  - guia-sonarqube-docker.md
+  - docker.md
+
+# Plugins (remote_theme funciona nativamente en GitHub Pages)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-mentions
+
+# Motor de Markdown
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
