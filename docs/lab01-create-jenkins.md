@@ -1,12 +1,12 @@
 # Guía rápida: Jenkins en Docker
 
-## Crear carpeta `jenkins`
+### Crear carpeta `jenkins`
 
 ```bash
 mkdir jenkins
 ```
 
-## Crear archivo `Dockerfile` dentro de la carpeta `jenkins`
+### Crear archivo `Dockerfile` dentro de la carpeta `jenkins`
 
 ```bash
 vi Dockerfile
