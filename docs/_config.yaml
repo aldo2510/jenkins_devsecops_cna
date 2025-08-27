@@ -8,10 +8,9 @@ github_username: aldo2510
 # Páginas que aparecerán en el menú (ordenadas)
 header_pages:
   - index.md
-  - guia-jenkins-docker.md
-  - guia-nexus-docker.md
-  - guia-sonarqube-docker.md
-  - docker.md
+  - lab01-create-jenkins.md
+  - lab01-create-nexus.md
+  - lab01-create-sonarqube.md
 
 # Plugins (remote_theme funciona nativamente en GitHub Pages)
 plugins:
